@@ -26,6 +26,21 @@
   &__img {
     max-width: 370px;
     max-height: 370px;
+
+    transition-property: box-shadow;
+    transition-duration: 1s;
+  }
+
+  &__img1:hover {
+    box-shadow: 5px 5px 5px #d1d7d3;
+  }
+
+  &__img2:hover {
+    box-shadow: 5px 5px 10px #b3371f;
+  }
+
+  &__img3:hover {
+    box-shadow: 5px 5px 10px #959aca;
   }
 
   &__date,
